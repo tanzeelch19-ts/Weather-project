@@ -1,6 +1,6 @@
-import { describeWeatherCode } from "../utils/weatherCodes";
-import { formatTemp, formatDayShort } from "../utils/formatters";
-import { WeatherIcon } from "../components/icons.jsx";
+import { describeWeatherCode } from "../utils/weatherCodes.js";
+import { formatTemp, formatDayShort } from "../utils/formatters.js";
+import { WeatherIcon } from "./icons.jsx";
 
 export default function DailyForecast({ daily, unit }) {
   if (!daily) return null;

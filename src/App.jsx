@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useWeather } from "./hooks/useWeather";
+import { useWeather } from "./hooks/useWeather.js";
 import { describeWeatherCode } from "./utils/weatherCodes";
 import SkyBackground from "./components/SkyBackground";
 import SearchBar from "./components/SearchBar";
@@ -9,7 +9,7 @@ import HourlyStrip from "./components/HourlyStrip";
 import DailyForecast from "./components/DailyForecast";
 import InstrumentPanel from "./components/InstrumentPanel";
 import LoadingState from "./components/LoadingState";
-import ErrorState from "./components/ErrorState.jsx";
+import ErrorState from "./components/ErrorState";
 
 export default function App() {
   const [unit, setUnit] = useState("C");
