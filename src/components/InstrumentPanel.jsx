@@ -7,7 +7,7 @@ import {
   EyeIcon,
   SunriseIcon,
   SunsetIcon,
-} from "../components/icons.jsx";
+} from "../components/Icons.jsx";
 import { formatWind, windDirectionLabel, formatSunTime } from "../utils/formatters";
 
 const UV_BANDS = [
