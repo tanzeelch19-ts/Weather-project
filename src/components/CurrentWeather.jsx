@@ -1,6 +1,6 @@
 import { describeWeatherCode } from "../utils/weatherCodes.js";
 import { formatTemp, formatFullDate } from "../utils/formatters.js";
-import { WeatherIcon } from "../components/Icons.jsx";
+import { WeatherIcon } from "../components/Icons";
 
 export default function CurrentWeather({ location, current, unit }) {
   const isDay = current.is_day === 1;

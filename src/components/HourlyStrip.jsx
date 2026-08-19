@@ -1,6 +1,6 @@
 import { describeWeatherCode } from "../utils/weatherCodes";
 import { formatTemp, formatHour } from "../utils/formatters";
-import { WeatherIcon } from "../components/Icons.jsx";
+import { WeatherIcon } from "../components/Icons";
 
 export default function HourlyStrip({ hourly, unit, currentIsoHour }) {
   if (!hourly) return null;

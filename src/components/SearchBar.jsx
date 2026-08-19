@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { geocodeCity } from "../services/weatherApi";
 import { useDebounce } from "../hooks/useDebounce";
-import { SearchIcon, LocateIcon, PinIcon } from "../components/Icons.jsx";
+import { SearchIcon, LocateIcon, PinIcon } from "../components/Icons";
 
 export default function SearchBar({ onSelect, onUseMyLocation, locating }) {
   const [query, setQuery] = useState("");
