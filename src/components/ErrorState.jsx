@@ -1,4 +1,4 @@
-import { AlertIcon } from "../components/Icons.jsx";
+import { AlertIcon } from "../components/Icons";
 
 export default function ErrorState({ message, onRetry }) {
   return (
