@@ -1,5 +1,6 @@
-import { useState } from "react";
-import { useWeather } from "./hooks/useWeather.js";
+import { useState } from "react"; 
+import { useWeather } from "./hooks/useWeather"; 
+
 import { describeWeatherCode } from "./utils/weatherCodes";
 import SkyBackground from "./components/SkyBackground";
 import SearchBar from "./components/SearchBar";
